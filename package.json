@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
+    "build:dist": "npm run build && git add -A -f dist",
     "typecheck": "tsc",
     "preview": "vite preview",
     "format": "prettier --write ."

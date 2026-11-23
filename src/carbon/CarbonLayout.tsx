@@ -15,6 +15,7 @@ const nav = [
   ["Apps", "/apps"],
   ["Privacy", "/privacy"],
   ["Contact", "/contact"],
+  ["Planned Apps", "/planned-apps"],
 ];
 
 export default function CarbonLayout() {

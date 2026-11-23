@@ -109,6 +109,11 @@ a.carbon-tile-link.cds--tile:visited,
   margin-bottom: 0.75rem;
 }
 
+.carbon-tile-link--static:hover {
+  transform: none;
+}
+
+.carbon-tile-meta__tags,
 .carbon-tile-meta__status {
   display: flex;
   flex-wrap: wrap;

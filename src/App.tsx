@@ -6,6 +6,7 @@ import CarbonApps from "./carbon/CarbonApps";
 import CarbonAppDetail from "./carbon/CarbonAppDetail";
 import CarbonLegal from "./carbon/CarbonLegal";
 import CarbonContact from "./carbon/CarbonContact";
+import CarbonPlannedApps from "./carbon/CarbonPlannedApps";
 import { disclaimer, privacy, terms } from "./content/site";
 
 function ScrollToTop() {
@@ -26,6 +27,7 @@ export default function App() {
           <Route index element={<CarbonHome />} />
           <Route path="apps" element={<CarbonApps />} />
           <Route path="apps/:slug" element={<CarbonAppDetail />} />
+          <Route path="planned-apps" element={<CarbonPlannedApps />} />
           <Route path="privacy" element={<CarbonLegal doc={privacy} />} />
           <Route path="terms" element={<CarbonLegal doc={terms} />} />
           <Route path="disclaimer" element={<CarbonLegal doc={disclaimer} />} />
